@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  width : 30%;
+  margin: auto;
+}
+mark {
+  background-color: #ADD8E6;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type = text]:focus {
+  border: 0.5px solid #6495ED;
+	outline: none;
+}
+
+.displayList {
+  text-align: left;
+  overflow : auto;
+  height: 500px;
+}
+
+.displayList p {
+  background-color: #F0F8FF;
+  padding: 5px;
+  margin: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+}
